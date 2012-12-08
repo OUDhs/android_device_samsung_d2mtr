@@ -19,3 +19,7 @@ DEVICE_PROVISIONED=1
 telephony.lteOnCdmaDevice=1
 ro.config.svlte1x=true
 persist.radio.no_wait_for_card=1
+
+# Fix Flickering in BlackBean
+debug.composition.type=gpu
+debug.mdpcomp.maxlayer=0
